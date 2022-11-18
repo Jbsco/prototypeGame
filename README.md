@@ -1,6 +1,6 @@
 # prototypeGame
 An SDL2 project for a Video Game Design course, simulating 2D FPV drone flight - includes physics model, HUD elements, and dynamic screen behavior as well as rudimentary "course" generation
-###### This repo is a copy of my individual efforts in what was supposed to be a team-based project. As most team members did not show up, respond, or otherwise participate until the absolute last possible moment, I feel justified in submitting my portion of that work here for posterity.
+###### This repo is a copy of my individual efforts in what was supposed to be a team-based project. As most team members did not show up, respond, or otherwise participate until the absolute last possible moment, I feel justified in submitting my portion of that work here for posterity. Note that this repository doesn't include any of the devlopment history, commit history, or anything of that nature - It is only a snapshot of the most recent master branch before any other last-minute team contributions were merged.
 
 # protoGame
 Contents [no longer] subject to change rapidly.
