@@ -34,8 +34,8 @@ class Sprite{ // Just draw no physics or keyboard
 		virtual void loopCourse(int millis,SDL_Rect &positioning){
 			//px+=positioning.x;
 			//py+=positioning.y;
-			DestR.x=px+positioning.x+positioning.w;
-			DestR.y=py+positioning.y+positioning.h;
+			DestR.x=px/*+positioning.x+positioning.w*/;
+			DestR.y=py/*+positioning.y+positioning.h*/;
 			SDL_RenderCopy(renderer,image,&SrcR,&DestR);
 		}
 		virtual bool check(){

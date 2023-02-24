@@ -60,10 +60,10 @@ class Player:public Particle{
 			}*/
 			if(e.type==SDL_KEYDOWN)if(e.key.keysym.sym==SDLK_c)coords=!coords;
 			if(e.type==SDL_KEYDOWN)if(e.key.keysym.sym==SDLK_h)hudMode=!hudMode;
-			if(e.type==SDL_KEYDOWN)if(e.key.keysym.sym==SDLK_p/*&&mode*/)playMode=!playMode;
+			if(e.type==SDL_KEYDOWN)if(e.key.keysym.sym==SDLK_p&&mode)playMode=!playMode;
 			if(e.type==SDL_KEYDOWN)if(e.key.keysym.sym==SDLK_m){
 				mode=!mode;
-				//playMode=0;
+				playMode=0;
 				vx=0;
 				vy=0;
 				if(mode){
