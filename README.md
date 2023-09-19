@@ -91,7 +91,7 @@ Setting up git:
 - Create UI/graphics resources
   - Currently player drone sprite, HUD elements, and debug telemetry are modeled
     - HUD shows current angle direction, current velocity direction, and velocity magnitude (press 'h')
-  - [ToDo] player drone sprite could be inproved, need background, more and/or improved UI elements
+  - [ToDo] player drone sprite could be improved, need background, more and/or improved UI elements
 - Generate courses
   - [ToDo] currently minimal, create any course elements, place randomly or via seed generation, wave collapse, etc
   - Scrolling currently implemented, proportional, horizontal and vertical
